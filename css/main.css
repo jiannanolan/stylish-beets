@@ -1,49 +1,54 @@
-h1 > i {
-  font-style: italic;
+html {
+  background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  line-height: 1.5;
+}
 
+img {
+  width: 100%;
+}
+
+h1 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+ol li {
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.125rem;
+}
+
+a {
+  color: #8f2440;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
 
 figcaption {
   font-style: italic;
   text-align: center;
-}
-
-p {
-  font-size: .8rem;
+  font-weight: normal;
 }
 
 .germination {
-  font-weight: bold;
   font-size: 1.125rem;
 }
 
-blockquote {
-  font-family: "PT Serif", serif;
-  font-size: 1.5rem;
-  text-align: center;
-  font-style: italic;
+p {
+  font-weight: normal;
 }
 
-h2 {
-  font-family: "PT Sans", sans-serif;
-  color: #3f1622;
-  font-weight: bold;
-}
-
-ol li {
-  font-size: .8rem;
-  list-style-type: lower-greek;
-}
-
-dt {
-  font-weight: bold;
-  font-size: .8rem;
-}
-
-dd {
-  font-size: .8rem;
-}
-
-ul li {
-  font-size: .8rem;
-  list-style-type: circle;
+.list {
+  color: red;
 }
